@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+        <title>Bootstrap - Template</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+                <a href="./index.html" class="navbar-brand">Logo</a>
+                <div class="ml-auto">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link" href="./index.html">Home</a></li>
+                        <li><a class="nav-link" href="./products.html">Products</a></li>
+                        <li><a class="nav-link" href="./login.html">Login</a></li>
+                        <li><a class="nav-link" href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <form action="/login">
+                        <div>
+                            <label>Email Id</label>
+                            <input type="email"/>
+                        </div>
+                         <div>
+                            <label>Password</label>
+                            <input type="password"/>
+                        </div>
+                        <input type="submit" value="Login">
+                    </form>
+                </div>
+                <div class="col-3">
+                    <form action="/login">
+                        <div class="form-group">
+                            <label>Email Id</label>
+                            <input type="email" class="form-control"/>
+                        </div>
+                         <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control"/>
+                        </div>
+                        <input type="submit" value="Login">
+                    </form>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Login Details</h3>
+                        </div>
+                        <div class="card-body">
+                            <form action="/login">
+                        <div class="form-group">
+                            <label>Email Id</label>
+                            <input type="email" class="form-control"/>
+                        </div>
+                         <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control"/>
+                        </div>
+                        <input type="submit" value="Login">
+                        </form>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-3">
+                    <div class="card">
+                        <div class="card-header bg-dark text-white">
+                            <h3>Login Details</h3>
+                        </div>
+                        <div class="card-body">
+                            <form action="/login">
+                                <div class="form-group">                          
+                                    <input placeholder="Email Id" type="email" class="form-control"/>
+                                </div>
+                                <div class="form-group">                           
+                                    <input placeholder="Password" type="password" class="form-control"/>
+                                </div>
+                                <input class="btn btn-warning" type="submit" value="Login">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer></footer>
+    </body>
+</html>
